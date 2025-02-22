@@ -6,8 +6,6 @@
 
 An intelligent music recommendation system powered by Spotify's API and machine learning, featuring a sleek Streamlit interface.
 
-![App Screenshot](https://via.placeholder.com/800x400.png?text=Harmony+Guide+Screenshot)
-
 ## ✨ Features
 - **Artist-Based Recommendations**: Get song suggestions based on your favorite artists
 - **Spotify Integration**: Display album art and track details
