@@ -1,21 +1,22 @@
-# 🎵 Harmony Guide - Music Recommendation Chatbot  
+# 🎵 Harmony Guide - Music Recommendation Chatbot
 
-Harmony Guide is a **music recommendation chatbot** built using **Streamlit** and **Spotify API**.  
-It suggests songs based on artist input and displays album covers.
+[![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-url.streamlit.app/)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://python.org)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
----
+An intelligent music recommendation system powered by Spotify's API and machine learning, featuring a sleek Streamlit interface.
 
-## 🚀 Features  
-✅ **Enter an artist's name** and get a recommended song  
-✅ **Displays album cover** for the recommended track  
-✅ **Styled UI with custom fonts, colors, and animations**  
-✅ **Uses Spotify API** for accurate recommendations  
+![App Screenshot](https://via.placeholder.com/800x400.png?text=Harmony+Guide+Screenshot)
 
----
+## ✨ Features
+- **Artist-Based Recommendations**: Get song suggestions based on your favorite artists
+- **Spotify Integration**: Display album art and track details
+- **Modern UI**: Dark theme with responsive design
+- **Secure Authentication**: Environment variable protection
+- **Cross-Platform**: Runs locally or in the cloud
 
-## 🔧 Installation  
-
-1️⃣ Clone the repository:  
+## 🚀 Installation
 ```bash
-git clone https://github.com/rajathpatilkulkarni-06/music-recommendation-api.git
-cd music-recommendation-api
+git clone https://github.com/yourusername/harmony-guide.git
+cd harmony-guide
+pip install -r requirements.txt
