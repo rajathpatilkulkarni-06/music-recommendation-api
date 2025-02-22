@@ -15,9 +15,12 @@ class MusicRecommender:
     def _init_spotify_client(self):
         """Initialize Spotify client with environment variables"""
         try:
+            client_id = st.secrets["SPOTIPY_CLIENT_ID"]
+            client_secret = st.secrets["SPOTIPY_CLIENT_SECRET"]
+
             self.sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(
-                client_id=os.getenv("SPOTIPY_CLIENT_ID"),
-                client_secret=os.getenv("SPOTIPY_CLIENT_SECRET")
+                client_id=client_id,
+                client_secret=client_secret
             ))
         except Exception as e:
             st.error(f"Failed to initialize Spotify client: {str(e)}")
@@ -205,6 +208,5 @@ class MusicRecommender:
 
 
 if __name__ == "__main__":
-    load_dotenv()
     recommender = MusicRecommender()
     recommender.run()
